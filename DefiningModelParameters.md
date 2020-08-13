@@ -53,6 +53,6 @@ Unfortunately, there's no clear methodological way to figure out the weighting r
 
 When Open Class splits into their own tour, the scores tend to increase faster than when they were on tour with World Class groups. We can see this affect by looking at scores from Open Class Prelims and Open Class Finals (Monday and Tuesday of Finals Week) to Prelims (Thursday of Finals Week). They typically decrease.
 
-From the model's perspective, what happens is that Open Class corps regularly underperform its expectations on semifinals and prelims day. Therefore, we will bias the random component of the model against them accordingly. Going back to 2014, we can look at the residual distribution for OC corps from Prelims day. Historically, it has a mean of -2 (techincally -2.02), but the variance is very close to the typical variance (1.99 versus 2.1). 
+From the model's perspective, what happens is that Open Class corps regularly underperform its expectations on semifinals and prelims day. Therefore, we will bias the random component of the model against them accordingly. Going back to 2014, we can look at the residual distribution for OC corps from Prelims day. Historically, it has a mean of -2 (technically -2.02), but the variance is very close to the typical variance (1.99 versus 2.1). 
 
 Therefore, the model will bias the random error distribution to have a mean of -2 for Open Class corps when predicting World Class Prelims or Semis from late in the season (day >= 40).
